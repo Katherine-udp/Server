@@ -1,0 +1,757 @@
+[19:12:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:12:26] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:12:27] [Worker-Main-4/INFO]: Loaded 7 recipes
+[19:12:31] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[19:12:31] [Server thread/INFO]: Loading properties
+[19:12:31] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.16.4.jar:git-Paper-345]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.16.4.jar:git-Paper-345]
+	at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:67) ~[patched_1.16.4.jar:git-Paper-345]
+	Suppressed: java.io.IOException: The handle is invalid
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:368) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:366) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:391) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:196) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:528) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[patched_1.16.4.jar:git-Paper-345]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.16.4.jar:git-Paper-345]
+		at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:67) ~[patched_1.16.4.jar:git-Paper-345]
+[19:12:31] [Server thread/INFO]: This server is running Paper version git-Paper-345 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[19:12:31] [Server thread/INFO]: Debug logging is disabled
+[19:12:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:12:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:12:31] [Server thread/INFO]: Default game type: SURVIVAL
+[19:12:31] [Server thread/INFO]: Generating keypair
+[19:12:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:12:31] [Server thread/INFO]: Using default channel type
+[19:12:32] [Server thread/INFO]: [Brewery] Loading Brewery v2.0.1
+[19:12:32] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.35
+[19:12:32] [ForkJoinPool-1-worker-31/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[19:12:33] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[19:12:33] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.6
+[19:12:33] [Server thread/INFO]: [LoneLibs] Loading LoneLibs v1.0.5
+[19:12:33] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.6
+[19:12:33] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.6.0-SNAPSHOT-b482
+[19:12:33] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.16.4) has not yet been tested! Proceed with caution.
+[19:12:33] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v10.0.20-SNAPSHOT
+[19:12:33] [Server thread/INFO]: [CMI] Loading CMI v8.7.8.4
+[19:12:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:12:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.35
+[19:12:34] [Server thread/INFO]:         __    
+[19:12:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.35
+[19:12:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:12:34] [Server thread/INFO]: 
+[19:12:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:12:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:12:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:12:36] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:12:36] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2893ms)
+[19:12:36] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.5
+[19:12:36] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.6.0-SNAPSHOT-b482
+[19:12:36] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:12:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:12:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:12:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:12:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:12:37] [Server thread/INFO]: Preparing level "world"
+[19:12:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:12:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[19:12:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:12:38] [Server thread/INFO]: Time elapsed: 495 ms
+[19:12:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:12:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[19:12:38] [Server thread/INFO]: Time elapsed: 266 ms
+[19:12:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:12:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[19:12:38] [Server thread/INFO]: Time elapsed: 290 ms
+[19:12:38] [Server thread/INFO]: [Brewery] Enabling Brewery v2.0.1
+[19:12:39] [Server thread/INFO]: [Brewery] Brewery enabled!
+[19:12:39] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[19:12:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.6
+[19:12:39] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
+[19:12:39] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_16_R3, using UniversalSkinFactory.
+[19:12:40] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:12:42] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.6
+[19:12:42] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:12:42] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.20-SNAPSHOT
+[19:12:42] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises.jar
+[19:12:42] [Server thread/INFO]: [LibsDisguises] Discovered nms version: v1_16_R3
+[19:12:42] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #817
+[19:12:42] [Server thread/INFO]: [LibsDisguises] Build Date: 28/12/2020 16:19
+[19:12:43] [Server thread/WARN]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[19:12:43] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[19:12:45] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[19:12:45] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[19:12:45] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[19:12:45] [Server thread/INFO]: [CMI] Enabling CMI v8.7.8.4
+[19:12:46] [Server thread/INFO]: [CMIPaperLib] Enabling CMIPaperLib v1.0.0
+[19:12:47] [Server thread/ERROR]: Error occurred while enabling CMI v8.7.8.4 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at com.Zrips.CMI.CMI.onEnable(CMI.java:1289) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.16.4.jar:git-Paper-345]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380) ~[patched_1.16.4.jar:git-Paper-345]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.16.4.jar:git-Paper-345]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:501) ~[patched_1.16.4.jar:git-Paper-345]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:415) ~[patched_1.16.4.jar:git-Paper-345]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:469) ~[patched_1.16.4.jar:git-Paper-345]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[patched_1.16.4.jar:git-Paper-345]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:936) ~[patched_1.16.4.jar:git-Paper-345]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:178) ~[patched_1.16.4.jar:git-Paper-345]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.Zrips.CMI.utils.VersionChecker$Version.isCurrentLower(VersionChecker.java:167) ~[?:?]
+	at com.Zrips.CMI.Containers.CMIChatColor.<init>(CMIChatColor.java:209) ~[?:?]
+	at com.Zrips.CMI.Containers.CMIChatColor.<init>(CMIChatColor.java:169) ~[?:?]
+	at com.Zrips.CMI.Containers.CMIChatColor.<clinit>(CMIChatColor.java:134) ~[?:?]
+	... 11 more
+[19:12:47] [Server thread/INFO]: [CMI] Disabling CMI v8.7.8.4
+[19:12:47] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:12:47] [Server thread/INFO]: Running delayed init tasks
+[19:12:47] [Server thread/INFO]: Done (16.840s)! For help, type "help"
+[19:12:47] [Server thread/INFO]: Timings Reset
+[19:12:48] [Craft Scheduler Thread - 3/INFO]: [PlaceholderAPI] 180 placeholder expansions are available on the cloud.
+[19:12:48] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.10.9) is available at:
+[19:12:48] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     +===============+
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     |---------------|
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     |   Bukkit only |
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     +===============+
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     Current version: 13.8.6
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:12:48] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:12:49] [User Authenticator #1/INFO]: UUID of player Pumpkindou is 388ef14a-d8c3-300c-976d-6d3c79a785fb
+[19:12:51] [Server thread/INFO]: Pumpkindou joined the game
+[19:12:52] [Server thread/INFO]: Pumpkindou[/190.101.65.184:58922] logged in with entity id 122 at ([world]-600.9696265620487, 85.0, 71.64374582494844)
+[19:12:52] [User Authenticator #1/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:12:53] [Server thread/INFO]: maxrogers78 joined the game
+[19:12:53] [Server thread/INFO]: maxrogers78[/190.160.150.101:59051] logged in with entity id 258 at ([world]-646.330339133292, 86.5, 256.5782945141135)
+[19:12:53] [User Authenticator #1/INFO]: UUID of player Mattewe is 5c55ae9f-dcbd-3eff-9123-4451ee94c885
+[19:12:53] [Server thread/INFO]: Mattewe joined the game
+[19:12:53] [Server thread/INFO]: Mattewe[/200.104.209.59:63210] logged in with entity id 417 at ([world]-477.8787225907735, 63.0, 342.4825740311791)
+[19:12:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[19:12:58] [User Authenticator #1/INFO]: UUID of player Troncho_7w7 is b09dd5c9-57a0-3d80-9b4b-ad1868fd5eb9
+[19:12:58] [Server thread/INFO]: Troncho_7w7 joined the game
+[19:12:58] [Server thread/INFO]: Troncho_7w7[/201.214.90.248:52780] logged in with entity id 1079 at ([world]-688.2110957958524, 11.200000047683714, 30.49933348094084)
+[19:12:59] [User Authenticator #1/INFO]: UUID of player Trinma_kill is ed548984-424e-3885-93ec-874dcf6752eb
+[19:12:59] [Server thread/INFO]: Trinma_kill joined the game
+[19:13:00] [Server thread/INFO]: Trinma_kill[/181.43.111.218:62934] logged in with entity id 1087 at ([world]-516.6812048975046, 71.5, 188.99355962950298)
+[19:13:02] [Server thread/INFO]: Pumpkindou lost connection: Disconnected
+[19:13:02] [Server thread/INFO]: Pumpkindou left the game
+[19:13:03] [Craft Scheduler Thread - 1/INFO]: [Brewery] Update available for Brewery-2.0.1: Brewery v3.0
+[19:13:06] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[19:13:06] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[19:13:08] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[19:13:08] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[19:13:11] [User Authenticator #1/INFO]: UUID of player Pumpkindou is 388ef14a-d8c3-300c-976d-6d3c79a785fb
+[19:13:12] [Server thread/INFO]: Pumpkindou joined the game
+[19:13:12] [Server thread/INFO]: Pumpkindou[/190.101.65.184:58926] logged in with entity id 1343 at ([world]-600.9696265620487, 85.0, 71.64374582494844)
+[19:14:16] [Async Chat Thread - #0/INFO]: <Trinma_kill> zZzZZZzzz
+[19:14:20] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[19:14:20] [Server thread/INFO]: maxrogers78 left the game
+[19:14:40] [Async Chat Thread - #0/INFO]: <Mattewe> zZzZzZzZzZ
+[19:14:58] [User Authenticator #2/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:14:58] [Server thread/INFO]: maxrogers78 joined the game
+[19:14:58] [Server thread/INFO]: maxrogers78[/190.160.150.101:59116] logged in with entity id 1885 at ([world]-624.3915398193099, 86.5, 249.85207269710966)
+[19:17:31] [User Authenticator #3/INFO]: UUID of player ParinStalin is 15d94414-5f29-30ef-a389-37e62764f355
+[19:17:32] [Server thread/INFO]: ParinStalin joined the game
+[19:17:32] [Server thread/INFO]: ParinStalin[/201.239.63.207:59670] logged in with entity id 3286 at ([world]-515.58196646073, 72.0, 201.50159038837677)
+[19:21:16] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -688 10 16 -703 12 30
+[19:21:19] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -688 10 16 -703 12 30 air
+[19:21:19] [Server thread/INFO]: [Troncho_7w7: Successfully filled 613 blocks]
+[19:21:32] [Server thread/INFO]: Troncho_7w7 issued server command: /undo
+[19:22:32] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -688 10 16 -703 12 -16 air
+[19:22:32] [Server thread/INFO]: [Troncho_7w7: Successfully filled 1469 blocks]
+[19:23:02] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -688 10 16 -673 12 -16 air
+[19:23:02] [Server thread/INFO]: [Troncho_7w7: Successfully filled 1331 blocks]
+[19:23:50] [Server thread/INFO]: Mattewe has made the advancement [Who is Cutting Onions?]
+[19:24:05] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -688 10 16 -673 12 -33 air
+[19:24:05] [Server thread/INFO]: [Troncho_7w7: Successfully filled 818 blocks]
+[19:24:55] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -688 10 16 -673 12 33 air
+[19:24:55] [Server thread/INFO]: [Troncho_7w7: Successfully filled 581 blocks]
+[19:25:28] [Async Chat Thread - #1/INFO]: <Trinma_kill> zzZZZzzzzZZZ
+[19:25:34] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -688 10 16 -673 12 49 air
+[19:25:34] [Server thread/INFO]: [Troncho_7w7: Successfully filled 663 blocks]
+[19:26:05] [Async Chat Thread - #1/INFO]: <Trinma_kill> zzzZzZZzZ
+[19:26:08] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[19:26:08] [Server thread/INFO]: maxrogers78 left the game
+[19:26:22] [Server thread/INFO]: ParinStalin lost connection: Disconnected
+[19:26:22] [Server thread/INFO]: ParinStalin left the game
+[19:26:31] [User Authenticator #4/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:26:31] [Server thread/INFO]: maxrogers78 joined the game
+[19:26:31] [Server thread/INFO]: maxrogers78[/190.160.150.101:59161] logged in with entity id 7894 at ([world]-637.6741137319685, 74.0, 255.3913163362843)
+[19:26:36] [Async Chat Thread - #1/INFO]: <Pumpkindou> ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+[19:26:36] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[19:26:36] [Server thread/INFO]: maxrogers78 left the game
+[19:26:39] [Async Chat Thread - #1/INFO]: <Pumpkindou> ZZZZZZZZZ
+[19:26:44] [Async Chat Thread - #1/INFO]: <Trinma_kill> zzzz
+[19:26:49] [User Authenticator #4/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:26:49] [Server thread/INFO]: maxrogers78 joined the game
+[19:26:49] [Server thread/INFO]: maxrogers78[/190.160.150.101:59192] logged in with entity id 7944 at ([world]-637.6433886097941, 74.0, 254.79812659330562)
+[19:26:49] [User Authenticator #4/INFO]: UUID of player ParinStalin is 15d94414-5f29-30ef-a389-37e62764f355
+[19:26:49] [Server thread/INFO]: ParinStalin joined the game
+[19:26:49] [Server thread/INFO]: ParinStalin[/201.239.63.207:60023] logged in with entity id 7958 at ([world]1279.5360988995255, 12.0, -1212.745352554626)
+[19:26:51] [Server thread/INFO]: [Server] https://www.youtube.com/watch?v=NJ0Vrxv5B6I&ab_channel=Avaflakiez
+[19:38:09] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[19:38:09] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[19:38:17] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[19:38:17] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[19:39:38] [Async Chat Thread - #2/INFO]: <Trinma_kill> zzzZZzZz
+[19:39:42] [User Authenticator #5/INFO]: UUID of player pastaskamisama is f7b4beb5-72ef-32ad-8721-16f889962f74
+[19:39:42] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[19:39:42] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[19:39:42] [Server thread/INFO]: pastaskamisama joined the game
+[19:39:42] [Server thread/INFO]: pastaskamisama[/190.163.54.8:55225] logged in with entity id 15249 at ([world]-488.3822992220966, 63.0, 380.3955762044984)
+[19:39:57] [Async Chat Thread - #2/INFO]: <Mattewe> zzz
+[19:39:57] [Async Chat Thread - #2/INFO]: <Mattewe> z
+[19:39:58] [Async Chat Thread - #2/INFO]: <Mattewe> z
+[19:39:58] [Async Chat Thread - #2/INFO]: <Mattewe> z
+[19:39:58] [Async Chat Thread - #2/INFO]: <Mattewe> z
+[19:39:58] [Async Chat Thread - #2/INFO]: <Mattewe> z
+[19:40:01] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[19:40:01] [Server thread/INFO]: maxrogers78 left the game
+[19:40:03] [Server thread/INFO]: ParinStalin lost connection: Disconnected
+[19:40:03] [Server thread/INFO]: ParinStalin left the game
+[19:40:07] [Async Chat Thread - #2/INFO]: <Mattewe> seta
+[19:40:22] [Async Chat Thread - #2/INFO]: <Mattewe> funao
+[19:40:35] [User Authenticator #5/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:40:35] [Server thread/INFO]: maxrogers78 joined the game
+[19:40:35] [Server thread/INFO]: maxrogers78[/190.160.150.101:59236] logged in with entity id 15631 at ([world]-576.6955255430394, 63.085764717767404, 220.3161748787347)
+[19:40:42] [Async Chat Thread - #2/INFO]: <pastaskamisama> zZZzzzZZz
+[19:40:44] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[19:40:44] [Server thread/INFO]: maxrogers78 left the game
+[19:40:56] [User Authenticator #5/INFO]: UUID of player ParinStalin is 15d94414-5f29-30ef-a389-37e62764f355
+[19:40:57] [Server thread/INFO]: ParinStalin joined the game
+[19:40:57] [Server thread/INFO]: ParinStalin[/201.239.63.207:59136] logged in with entity id 15744 at ([world]1276.699999988079, 4.0, -1212.699999988079)
+[19:41:25] [User Authenticator #5/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:41:25] [Server thread/INFO]: maxrogers78 joined the game
+[19:41:25] [Server thread/INFO]: maxrogers78[/190.160.150.101:59245] logged in with entity id 16092 at ([world]-551.8991611312024, 63.085764717767404, 217.0528183531009)
+[19:42:37] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[19:42:37] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[19:42:53] [Craft Scheduler Thread - 49/INFO]: [LibsDisguises] Now looking for update on Jenkins..
+[19:43:18] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[19:43:18] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[19:43:34] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[19:43:34] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[19:45:06] [Server thread/INFO]: Troncho_7w7 issued server command: /tp ParinStalin maxrogers78
+[19:45:06] [Server thread/INFO]: [Troncho_7w7: Teleported ParinStalin to maxrogers78]
+[19:46:06] [Async Chat Thread - #3/INFO]: <Mattewe> UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+[19:46:13] [Async Chat Thread - #3/INFO]: <pastaskamisama> UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+[19:46:35] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -673 12 49 -703 19 30 air
+[19:46:35] [Server thread/INFO]: [Troncho_7w7: Successfully filled 4356 blocks]
+[19:47:03] [Server thread/INFO]: Troncho_7w7 issued server command: /fill -673 12 49 -703 19 -19 air
+[19:47:04] [Server thread/INFO]: [Troncho_7w7: Successfully filled 10547 blocks]
+[19:47:22] [Async Chat Thread - #4/INFO]: <ParinStalin> EN ESTE CANAL ESTA PROHIBIDO HABLAR DEL MURA, ELESTA PRESO
+[19:49:26] [Server thread/INFO]: pastaskamisama was shot by Trinma_kill
+[19:50:07] [Server thread/WARN]: maxrogers78 was kicked for floating too long!
+[19:50:07] [Server thread/INFO]: maxrogers78 lost connection: Flying is not enabled on this server
+[19:50:07] [Server thread/INFO]: maxrogers78 left the game
+[19:50:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[19:50:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[19:50:09] [User Authenticator #6/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:50:09] [Server thread/INFO]: maxrogers78 joined the game
+[19:50:10] [Server thread/INFO]: maxrogers78[/190.160.150.101:59315] logged in with entity id 21531 at ([world]-560.2093016406228, 61.994864728162455, 217.89051037724153)
+[19:51:18] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[19:51:18] [Server thread/INFO]: maxrogers78 left the game
+[19:51:38] [Server thread/INFO]: Mattewe lost connection: Disconnected
+[19:51:38] [Server thread/INFO]: Mattewe left the game
+[19:51:40] [Server thread/INFO]: Pumpkindou lost connection: Disconnected
+[19:51:40] [Server thread/INFO]: Pumpkindou left the game
+[19:51:44] [User Authenticator #7/INFO]: UUID of player Mattewe is 5c55ae9f-dcbd-3eff-9123-4451ee94c885
+[19:51:44] [Server thread/INFO]: Mattewe joined the game
+[19:51:44] [Server thread/INFO]: Mattewe[/200.104.209.59:63357] logged in with entity id 22344 at ([world]-399.46760900990097, 63.0, 301.29412880620856)
+[19:51:50] [User Authenticator #7/INFO]: UUID of player Pumpkindou is 388ef14a-d8c3-300c-976d-6d3c79a785fb
+[19:51:50] [Server thread/INFO]: Pumpkindou joined the game
+[19:51:50] [Server thread/INFO]: Pumpkindou[/190.101.65.184:59143] logged in with entity id 22424 at ([world]-403.2589191209654, 66.0, 248.04474907051923)
+[19:51:56] [User Authenticator #7/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[19:51:57] [Server thread/INFO]: maxrogers78 joined the game
+[19:51:57] [Server thread/INFO]: maxrogers78[/190.160.150.101:59348] logged in with entity id 22459 at ([world]-528.6999999880791, 64.0, 222.69999998807907)
+[19:54:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[19:54:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[19:55:23] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[19:55:27] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[19:55:27] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[19:56:37] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[19:56:37] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[19:56:49] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[19:56:49] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[19:56:54] [Async Chat Thread - #5/INFO]: <Mattewe> @ de la minita
+[19:57:01] [Async Chat Thread - #5/INFO]: <Trinma_kill> @lamaldito
+[19:57:07] [Async Chat Thread - #5/INFO]: <Mattewe> @miaustral
+[19:57:09] [Server thread/INFO]: Troncho_7w7 issued server command: /tp @s -670 11 24
+[19:57:09] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to -669.5, 11.0, 24.5]
+[19:57:30] [Async Chat Thread - #5/INFO]: <ParinStalin> enstein garchaba como un toro con esta receta, pincha aqui para saber mas
+[19:57:50] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[19:57:50] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[19:57:55] [Async Chat Thread - #5/INFO]: <Mattewe> este viejo hijoeputa folla como caballo
+[19:58:00] [Async Chat Thread - #5/INFO]: <Mattewe> click aqui para saber como
+[19:58:05] [Async Chat Thread - #5/INFO]: <Trinma_kill> *llora*
+[19:58:10] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[19:58:10] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:00:11] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:00:11] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:00:12] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:00:12] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:00:16] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:00:16] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:00:30] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:00:30] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:00:49] [Server thread/WARN]: Boat (vehicle of pastaskamisama) moved wrongly! 0.692894360050559
+[20:01:05] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:01:05] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:01:09] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:01:09] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:01:10] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:01:10] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:01:11] [Async Chat Thread - #6/INFO]: <Mattewe> Matías padilla, Sin filtro 2
+[20:01:26] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:01:26] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:01:30] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:01:30] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:01:32] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:01:32] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:01:44] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:01:44] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:01:46] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:01:46] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:03:25] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[20:03:25] [Server thread/INFO]: maxrogers78 left the game
+[20:03:27] [Server thread/INFO]: Mattewe lost connection: Disconnected
+[20:03:27] [Server thread/INFO]: Mattewe left the game
+[20:03:42] [Async Chat Thread - #7/INFO]: <Pumpkindou> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[20:03:44] [Async Chat Thread - #7/INFO]: <Trinma_kill> zzzzz
+[20:03:48] [User Authenticator #8/INFO]: UUID of player Mattewe is 5c55ae9f-dcbd-3eff-9123-4451ee94c885
+[20:03:49] [Server thread/INFO]: Mattewe joined the game
+[20:03:49] [Server thread/INFO]: Mattewe[/200.104.209.59:63401] logged in with entity id 29108 at ([world]-387.42959010117085, 63.0, 302.14350163978304)
+[20:03:52] [User Authenticator #8/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[20:03:53] [Server thread/INFO]: maxrogers78 joined the game
+[20:03:53] [Server thread/INFO]: maxrogers78[/190.160.150.101:59392] logged in with entity id 29150 at ([world]-620.8900664568754, 69.0, 251.4394417487977)
+[20:04:48] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:04:48] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:04:53] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:04:53] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:07:36] [Server thread/INFO]: ParinStalin lost connection: Disconnected
+[20:07:36] [Server thread/INFO]: ParinStalin left the game
+[20:07:38] [Server thread/INFO]: Trinma_kill lost connection: Disconnected
+[20:07:38] [Server thread/INFO]: Trinma_kill left the game
+[20:07:40] [Server thread/INFO]: Mattewe lost connection: Disconnected
+[20:07:40] [Server thread/INFO]: Mattewe left the game
+[20:07:40] [Server thread/INFO]: pastaskamisama lost connection: Disconnected
+[20:07:40] [Server thread/INFO]: pastaskamisama left the game
+[20:07:49] [Server thread/INFO]: Pumpkindou lost connection: Disconnected
+[20:07:49] [Server thread/INFO]: Pumpkindou left the game
+[20:07:52] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:07:52] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:07:56] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:07:56] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:08:01] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:08:01] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:08:02] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:08:02] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:08:03] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:08:03] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:08:10] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:08:10] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:08:12] [Server thread/INFO]: Troncho_7w7 lost connection: Disconnected
+[20:08:12] [Server thread/INFO]: Troncho_7w7 left the game
+[20:08:39] [User Authenticator #9/INFO]: UUID of player pastaskamisama is f7b4beb5-72ef-32ad-8721-16f889962f74
+[20:08:40] [Server thread/INFO]: pastaskamisama joined the game
+[20:08:40] [Server thread/INFO]: pastaskamisama[/190.163.54.8:55581] logged in with entity id 32911 at ([world]-492.9552992585108, 80.0, 397.98580029523083)
+[20:08:54] [User Authenticator #9/INFO]: UUID of player Trinma_kill is ed548984-424e-3885-93ec-874dcf6752eb
+[20:08:54] [Server thread/INFO]: Trinma_kill joined the game
+[20:08:54] [Server thread/INFO]: Trinma_kill[/181.43.111.218:63199] logged in with entity id 33051 at ([world]1276.5132307584317, 4.0, -1212.699999988079)
+[20:09:12] [User Authenticator #9/INFO]: UUID of player Troncho_7w7 is b09dd5c9-57a0-3d80-9b4b-ad1868fd5eb9
+[20:09:13] [Server thread/INFO]: Troncho_7w7 joined the game
+[20:09:13] [Server thread/INFO]: Troncho_7w7[/201.214.90.248:53041] logged in with entity id 33216 at ([world]-680.4828093361452, 10.0, -5.592795713581203)
+[20:09:19] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:09:19] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:09:25] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:09:25] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:09:35] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:09:35] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:09:49] [User Authenticator #9/INFO]: UUID of player Pumpkindou is 388ef14a-d8c3-300c-976d-6d3c79a785fb
+[20:09:50] [Server thread/INFO]: Pumpkindou joined the game
+[20:09:50] [Server thread/INFO]: Pumpkindou[/190.101.65.184:59246] logged in with entity id 33578 at ([world]-606.4265834707672, 79.0, 88.96216133228904)
+[20:11:02] [User Authenticator #10/INFO]: UUID of player Mattewe is 5c55ae9f-dcbd-3eff-9123-4451ee94c885
+[20:11:02] [Server thread/INFO]: Mattewe joined the game
+[20:11:02] [Server thread/INFO]: Mattewe[/200.104.209.59:63411] logged in with entity id 34280 at ([world_nether]-54.788745237404, 47.0, 54.322689861163475)
+[20:11:05] [User Authenticator #10/INFO]: UUID of player ParinStalin is 15d94414-5f29-30ef-a389-37e62764f355
+[20:11:05] [Server thread/INFO]: ParinStalin joined the game
+[20:11:05] [Server thread/INFO]: ParinStalin[/201.239.63.207:60511] logged in with entity id 34312 at ([world]-601.3467634639228, 85.0, 78.31199240522365)
+[20:11:15] [Server thread/WARN]: ParinStalin moved wrongly!
+[20:11:48] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:11:48] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:11:49] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:11:49] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:11:50] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:11:50] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:12:00] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:12:00] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:12:17] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:12:17] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:12:18] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:12:18] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:12:19] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:12:19] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:12:23] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:12:23] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:12:33] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:12:33] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:12:36] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:12:36] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:12:37] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:12:37] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:12:40] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:12:40] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:12:41] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:12:41] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:12:47] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:12:47] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:12:50] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:12:50] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:13:05] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:13:05] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:13:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:13:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:13:08] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:13:08] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:13:14] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:13:14] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:13:16] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:13:16] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:13:17] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:13:17] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:13:38] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:13:38] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:13:46] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:13:46] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:15:46] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:15:46] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:16:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:16:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:16:13] [Server thread/INFO]: Troncho_7w7 issued server command: /tp maxrogers78
+[20:16:13] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to maxrogers78]
+[20:16:17] [Server thread/INFO]: Troncho_7w7 fell from a high place
+[20:16:24] [Server thread/INFO]: Troncho_7w7 issued server command: /tp maxrogers78
+[20:16:24] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to maxrogers78]
+[20:16:49] [Async Chat Thread - #8/INFO]: <Trinma_kill> zzzzz
+[20:16:56] [Server thread/INFO]: Troncho_7w7 issued server command: /tp maxrogers78
+[20:16:56] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to maxrogers78]
+[20:17:02] [Server thread/INFO]: ParinStalin lost connection: Disconnected
+[20:17:02] [Server thread/INFO]: ParinStalin left the game
+[20:17:06] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[20:17:06] [Server thread/INFO]: maxrogers78 left the game
+[20:17:14] [Server thread/INFO]: Troncho_7w7 lost connection: Disconnected
+[20:17:14] [Server thread/INFO]: Troncho_7w7 left the game
+[20:17:18] [Server thread/INFO]: pastaskamisama lost connection: Disconnected
+[20:17:18] [Server thread/INFO]: pastaskamisama left the game
+[20:17:22] [User Authenticator #11/INFO]: UUID of player pastaskamisama is f7b4beb5-72ef-32ad-8721-16f889962f74
+[20:17:22] [Server thread/INFO]: pastaskamisama joined the game
+[20:17:22] [Server thread/INFO]: pastaskamisama[/190.163.54.8:55617] logged in with entity id 39187 at ([world]-1339.6555756101984, 12.0, 336.63968644548106)
+[20:17:26] [Server thread/INFO]: pastaskamisama lost connection: Disconnected
+[20:17:26] [Server thread/INFO]: pastaskamisama left the game
+[20:17:27] [Server thread/INFO]: Mattewe lost connection: Disconnected
+[20:17:27] [Server thread/INFO]: Mattewe left the game
+[20:17:31] [User Authenticator #11/INFO]: UUID of player Mattewe is 5c55ae9f-dcbd-3eff-9123-4451ee94c885
+[20:17:31] [Server thread/INFO]: Mattewe joined the game
+[20:17:31] [Server thread/INFO]: Mattewe[/200.104.209.59:63425] logged in with entity id 39370 at ([world]-421.6817462561629, 65.0, 295.14170684831544)
+[20:17:35] [User Authenticator #11/INFO]: UUID of player pastaskamisama is f7b4beb5-72ef-32ad-8721-16f889962f74
+[20:17:35] [Server thread/INFO]: pastaskamisama joined the game
+[20:17:35] [Server thread/INFO]: pastaskamisama[/190.163.54.8:55623] logged in with entity id 39478 at ([world]-1339.6555756101984, 12.0, 336.63968644548106)
+[20:17:35] [User Authenticator #11/INFO]: UUID of player Troncho_7w7 is b09dd5c9-57a0-3d80-9b4b-ad1868fd5eb9
+[20:17:35] [Server thread/INFO]: Troncho_7w7 joined the game
+[20:17:35] [Server thread/INFO]: Troncho_7w7[/201.214.90.248:53075] logged in with entity id 39561 at ([world]-643.4066326228137, 86.5, 262.1080133020788)
+[20:17:41] [User Authenticator #11/INFO]: UUID of player ParinStalin is 15d94414-5f29-30ef-a389-37e62764f355
+[20:17:41] [Server thread/INFO]: ParinStalin joined the game
+[20:17:41] [Server thread/INFO]: ParinStalin[/201.239.63.207:59835] logged in with entity id 39733 at ([world]-624.0999006615913, 86.5, 255.49033489164879)
+[20:18:13] [User Authenticator #11/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[20:18:13] [Server thread/INFO]: maxrogers78 joined the game
+[20:18:13] [Server thread/INFO]: maxrogers78[/190.160.150.101:59448] logged in with entity id 40155 at ([world]-620.5038181047349, 106.0, 251.4532824803604)
+[20:18:37] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:18:37] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:18:52] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:18:52] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:18:53] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:18:53] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:19:06] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:19:06] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:19:32] [Server thread/INFO]: Troncho_7w7 issued server command: /tp ParinStalin
+[20:19:32] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to ParinStalin]
+[20:19:40] [Server thread/INFO]: Troncho_7w7 issued server command: /tp pastaskamisama
+[20:19:40] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to pastaskamisama]
+[20:20:28] [Server thread/INFO]: Troncho_7w7 issued server command: /give Mattewe dirt 1000
+[20:20:28] [Server thread/INFO]: [Troncho_7w7: Gave 1000 [Dirt] to Mattewe]
+[20:21:36] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:21:36] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:22:06] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:22:06] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:22:12] [Server thread/INFO]: Troncho_7w7 issued server command: /tp maxrogers78
+[20:22:12] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to maxrogers78]
+[20:22:22] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:22:22] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:22:24] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:22:24] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:23:00] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:23:00] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:23:25] [Server thread/WARN]: Troncho_7w7 moved too quickly! 114.23740789492297,-1.5069442138318578,-34.44482012211108
+[20:23:26] [Server thread/WARN]: Troncho_7w7 moved too quickly! -93.28431971806651,16.833890739061786,-109.51497395304189
+[20:23:29] [Server thread/INFO]: ParinStalin lost connection: Disconnected
+[20:23:29] [Server thread/INFO]: ParinStalin left the game
+[20:23:38] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[20:23:38] [Server thread/INFO]: maxrogers78 left the game
+[20:23:40] [User Authenticator #12/INFO]: UUID of player maxrogers78 is 7d4e6140-f812-3900-87f3-e30e3bc789ba
+[20:23:41] [Server thread/INFO]: maxrogers78 joined the game
+[20:23:41] [Server thread/INFO]: maxrogers78[/190.160.150.101:59476] logged in with entity id 44955 at ([world]-639.3000000119209, 209.0, 251.30000001192093)
+[20:23:51] [Server thread/WARN]: Troncho_7w7 moved too quickly! -2748.1701674768838,10.0,1541.2711072078773
+[20:23:54] [Server thread/WARN]: Troncho_7w7 moved too quickly! 873.9128021255506,71.0,-256.681124506675
+[20:24:53] [Server thread/INFO]: maxrogers78 lost connection: Disconnected
+[20:24:53] [Server thread/INFO]: maxrogers78 left the game
+[20:25:14] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:25:14] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:25:24] [Server thread/INFO]: Troncho_7w7 issued server command: /tp Mattewe
+[20:25:24] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to Mattewe]
+[20:25:24] [Server thread/WARN]: Troncho_7w7 moved too quickly! 35.528476122527536,9.514497046699368,-19.007825148874588
+[20:26:55] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:26:55] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:27:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:27:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:27:09] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:27:09] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:27:37] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:27:37] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:30:28] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:30:28] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:30:36] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:30:36] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:30:40] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:30:40] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:31:25] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:31:25] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:31:40] [Async Chat Thread - #9/INFO]: <Trinma_kill> zzzzz
+[20:33:10] [Server thread/INFO]: Pumpkindou lost connection: Disconnected
+[20:33:10] [Server thread/INFO]: Pumpkindou left the game
+[20:33:17] [Server thread/INFO]: Troncho_7w7 lost connection: Disconnected
+[20:33:17] [Server thread/INFO]: Troncho_7w7 left the game
+[20:33:28] [User Authenticator #13/INFO]: UUID of player Pumpkindou is 388ef14a-d8c3-300c-976d-6d3c79a785fb
+[20:33:28] [Server thread/INFO]: Pumpkindou joined the game
+[20:33:28] [Server thread/INFO]: Pumpkindou[/190.101.65.184:59378] logged in with entity id 50493 at ([world]-597.8056820897942, 80.5625, 68.8290895031059)
+[20:33:34] [User Authenticator #13/INFO]: UUID of player Troncho_7w7 is b09dd5c9-57a0-3d80-9b4b-ad1868fd5eb9
+[20:33:34] [Server thread/INFO]: Troncho_7w7 joined the game
+[20:33:34] [Server thread/INFO]: Troncho_7w7[/201.214.90.248:53239] logged in with entity id 50562 at ([world]-658.6010224995824, 256.0, 28.686335471748663)
+[20:34:37] [Server thread/INFO]: Mattewe was burnt to a crisp whilst fighting Magma Cube
+[20:37:08] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:37:08] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:37:19] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:37:19] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:37:26] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:37:26] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:37:29] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:37:29] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:37:35] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:37:35] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:37:37] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:37:37] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:38:03] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:38:03] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:38:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:38:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:38:22] [Server thread/INFO]: Troncho_7w7 has reached the goal [Hired Help]
+[20:38:25] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:38:25] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:38:26] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:38:26] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:39:32] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:39:32] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:39:37] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:39:37] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:39:48] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:39:48] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:41:59] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:41:59] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:42:01] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:42:01] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:42:15] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:42:15] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:42:21] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[20:42:21] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[20:42:24] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:42:24] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:43:04] [Server thread/INFO]: Troncho_7w7 lost connection: Disconnected
+[20:43:04] [Server thread/INFO]: Troncho_7w7 left the game
+[20:47:01] [Async Chat Thread - #10/INFO]: <Pumpkindou> ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+[20:47:08] [Async Chat Thread - #10/INFO]: <pastaskamisama> ZZzzzZZZzz
+[20:47:38] [Async Chat Thread - #10/INFO]: <Pumpkindou> ZZZzzzzzZZzZZz
+[20:47:49] [User Authenticator #14/INFO]: UUID of player Troncho_7w7 is b09dd5c9-57a0-3d80-9b4b-ad1868fd5eb9
+[20:47:49] [Server thread/INFO]: Troncho_7w7 joined the game
+[20:47:49] [Server thread/INFO]: Troncho_7w7[/201.214.90.248:53468] logged in with entity id 59026 at ([world]-656.763375566836, 70.0, 14.817244402330935)
+[20:48:14] [Server thread/INFO]: Troncho_7w7 lost connection: Disconnected
+[20:48:14] [Server thread/INFO]: Troncho_7w7 left the game
+[20:48:43] [User Authenticator #14/INFO]: UUID of player Troncho_7w7 is b09dd5c9-57a0-3d80-9b4b-ad1868fd5eb9
+[20:48:43] [Server thread/INFO]: Troncho_7w7 joined the game
+[20:48:43] [Server thread/INFO]: Troncho_7w7[/201.214.90.248:53484] logged in with entity id 59545 at ([world]-657.6807525263848, 69.0, 20.69999998807907)
+[20:49:34] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:49:34] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:49:45] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:49:45] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:50:29] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:50:29] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:50:35] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:50:35] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:51:46] [Server thread/INFO]: Troncho_7w7 issued server command: /plugins
+[20:51:53] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:51:53] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:51:59] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:51:59] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:52:02] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:52:02] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:52:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:52:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:52:38] [Server thread/INFO]: Troncho_7w7 issued server command: /tp Pumpkindou
+[20:52:38] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to Pumpkindou]
+[20:54:03] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:54:03] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:54:31] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:54:31] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:56:04] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:56:04] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:57:04] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:57:04] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:57:06] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:57:06] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:57:40] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:57:40] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:58:01] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:58:01] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:58:33] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:58:33] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[20:59:14] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[20:59:14] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[20:59:37] [Server thread/INFO]: Mattewe has made the advancement [What a Deal!]
+[20:59:58] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[20:59:58] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:00:00] [Server thread/INFO]: Troncho_7w7 fell from a high place
+[21:00:03] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:00:03] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:00:14] [Server thread/INFO]: Troncho_7w7 issued server command: /tp @s -192 72 -2341
+[21:00:14] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to -191.5, 72.0, -2340.5]
+[21:00:16] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:00:16] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:00:28] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:00:28] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:01:26] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:01:26] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:05:28] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:05:28] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:05:31] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:05:31] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:05:32] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:05:32] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:05:33] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:05:33] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:05:45] [Server thread/INFO]: Pumpkindou was shot by Skeleton
+[21:06:38] [Async Chat Thread - #11/INFO]: <Pumpkindou> ZzZzZz
+[21:06:42] [Server thread/INFO]: Mattewe lost connection: Disconnected
+[21:06:42] [Server thread/INFO]: Mattewe left the game
+[21:07:06] [Async Chat Thread - #11/INFO]: <Trinma_kill> zzzzz
+[21:07:19] [Async Chat Thread - #11/INFO]: <pastaskamisama> zzZZzzZ
+[21:07:26] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:07:26] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:07:58] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:07:58] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:08:13] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode creative
+[21:08:13] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Creative Mode]
+[21:09:01] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:09:01] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:09:54] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:09:54] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:10:01] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:10:01] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:11:13] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:11:13] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:11:14] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:11:14] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:11:15] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:11:15] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:11:31] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:11:31] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:11:46] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:11:46] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:13:19] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:13:19] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:14:08] [User Authenticator #15/INFO]: UUID of player Mattewe is 5c55ae9f-dcbd-3eff-9123-4451ee94c885
+[21:14:08] [Server thread/INFO]: Mattewe joined the game
+[21:14:08] [Server thread/INFO]: Mattewe[/200.104.209.59:63610] logged in with entity id 78135 at ([world]-432.7941646323022, 62.0, 280.4632485211229)
+[21:14:18] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:14:18] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:14:27] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:14:27] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:14:50] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:14:50] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:15:41] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:15:41] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:15:50] [Server thread/INFO]: Troncho_7w7 issued server command: /tp Mattewe
+[21:15:50] [Server thread/INFO]: [Troncho_7w7: Teleported Troncho_7w7 to Mattewe]
+[21:17:30] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:17:30] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:17:31] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:17:31] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:17:32] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:17:32] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:17:38] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:17:38] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:17:41] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:17:41] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:17:42] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:17:42] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:18:07] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode spectator
+[21:18:07] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Spectator Mode]
+[21:18:10] [Server thread/INFO]: Troncho_7w7 issued server command: /gamemode survival
+[21:18:10] [Server thread/INFO]: [Troncho_7w7: Set own game mode to Survival Mode]
+[21:21:53] [Server thread/INFO]: Troncho_7w7 lost connection: Disconnected
+[21:21:53] [Server thread/INFO]: Troncho_7w7 left the game
+[21:27:13] [User Authenticator #16/INFO]: UUID of player ParinStalin is 15d94414-5f29-30ef-a389-37e62764f355
+[21:27:13] [Server thread/INFO]: ParinStalin joined the game
+[21:27:13] [Server thread/INFO]: ParinStalin[/201.239.63.207:59989] logged in with entity id 85549 at ([world]-512.9087967782477, 71.0, 185.6832244817228)
+[21:27:15] [Server thread/INFO]: Trinma_kill lost connection: Disconnected
+[21:27:15] [Server thread/INFO]: Trinma_kill left the game
+[21:30:59] [Async Chat Thread - #12/INFO]: <Mattewe> xray. on
+[21:31:08] [Async Chat Thread - #12/INFO]: <pastaskamisama> oye no po
+[21:31:15] [Async Chat Thread - #12/INFO]: <Mattewe> perdon
+[21:31:20] [Async Chat Thread - #12/INFO]: <Mattewe> me canse de ser buena onda
+[21:31:29] [Async Chat Thread - #12/INFO]: <pastaskamisama> ./kill matadeweas
+[21:31:41] [Async Chat Thread - #12/INFO]: <Mattewe> mi tio trabaja en maincraf
+[21:31:46] [Async Chat Thread - #12/INFO]: <Mattewe> te fuiste ban
+[21:31:58] [Async Chat Thread - #12/INFO]: <pastaskamisama> mi tio tiene una relacion homosexual con el tuyo
+[21:32:02] [Async Chat Thread - #12/INFO]: <pastaskamisama> te fuiste baneado
+[21:32:15] [Async Chat Thread - #12/INFO]: <Mattewe> :c perdon
+[21:32:32] [Server thread/INFO]: ParinStalin lost connection: Disconnected
+[21:32:32] [Server thread/INFO]: ParinStalin left the game
+[21:37:27] [Server thread/WARN]: Horse (vehicle of Mattewe) moved wrongly! 0.3395788387041989
+[21:37:27] [Server thread/WARN]: Horse (vehicle of Mattewe) moved wrongly! 0.3712866175320073
+[21:37:27] [Server thread/WARN]: Horse (vehicle of Mattewe) moved wrongly! 0.4030401935032728
+[21:38:09] [Server thread/WARN]: Horse (vehicle of Mattewe) moved wrongly! 0.47166805864554817
+[21:42:59] [Server thread/INFO]: Mattewe lost connection: Disconnected
+[21:42:59] [Server thread/INFO]: Mattewe left the game
+[21:43:00] [Server thread/INFO]: Pumpkindou lost connection: Disconnected
+[21:43:00] [Server thread/INFO]: Pumpkindou left the game
+[21:43:03] [Server thread/INFO]: pastaskamisama lost connection: Disconnected
+[21:43:03] [Server thread/INFO]: pastaskamisama left the game
